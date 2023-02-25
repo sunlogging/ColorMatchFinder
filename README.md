@@ -10,9 +10,11 @@
 
 `Additional include directories` - \vcpkg-master\vcpkg-master\packages\opencv4_x64-windows\lib
 
+`Add all DLL files to the directory with the script and Debug \ Release, if you downloaded all the necessary libraries with vcpkg you will find there` -  \vcpkg-master\vcpkg-master\packages\
+
 `Additional dependencies` - opencv_calib3d4.lib;opencv_core4.lib;opencv_dnn4.lib;opencv_features2d4.lib;opencv_flann4.lib;opencv_highgui4.lib;opencv_imgcodecs4.lib;opencv_imgproc4.lib;opencv_ml4.lib;opencv_objdetect4.lib;opencv_photo4.lib;opencv_stitching4.lib;opencv_video4.lib;opencv_videoio4.lib;%(AdditionalDependencies)
 
-`Open Visual Studio Developer Command Prompt and write msbuild /t:Build /p:Configuration=Release`
+`Open Visual Studio Developer Command Prompt and write` -  msbuild /t:Build /p:Configuration=Release
 
 > __What does this script do?__
 
